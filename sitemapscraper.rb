@@ -33,8 +33,8 @@ class Scraper
             instructions_section = doc.css("#mntl-sc-block_3-0")
 
             if c_name.any? && c_spirit_type.any? && c_description.any? && ingredients_section.any? && instructions_section.any?
-                puts "-------------------------------------------------------"
-                puts c_name.text
+                #puts "-------------------------------------------------------"
+                #puts c_name.text
                 #puts c_spirit_type.text
             
                 #paragraphs = c_description.css('p').map(&:text)
@@ -46,15 +46,13 @@ class Scraper
 
                 paragraphs = ingredients_section.css('p').map(&:text)
                 paragraphs.each { |paragraph| puts paragraph }
-                puts "-------------------------------------------------------"
+                #puts "-------------------------------------------------------"
             
                 #paragraphs = instructions_section.css('p').map(&:text)
                 #paragraphs.each { |paragraph| puts paragraph }
             else
-                puts "One or more elements are missing on the page."
+                #puts "One or more elements are missing on the page."
             end
-
-            puts 
         end
     end
 end

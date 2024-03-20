@@ -60,65 +60,235 @@ else
 end
 
 recipes = [
-  "Peels of 5 whole lemons",
-  "Peels of 1 orange",
-  "Peels of 2 whole grapefruits",
-  "1 whole pineapple, diced with skins",
-  "1 pound granulated sugar",
-  "1/8 teaspoon nutmeg, freshly grated",
-  "1/4 teaspoon coriander seeds",
-  "1 pod star anise",
-  "4 pods green cardamom, roasted",
-  "6 allspice berries, whole",
-  "1/8 teaspoon cloves, whole",
-  "16 ounces Lifted Spirits Jalapeño and Herb Vodka",
-  "16 ounces Cleveland Wheat Penny 1958 Bourbon",
-  "8 ounces Heirloom Pineapple Amaro",
-  "8 ounces Geijer California Fernet",
-  "6 ounces lemon juice, freshly squeezed",
-  "4 ounces pastis",
-  "1 quart oversteeped passion fruit green tea (instructions below)",
-  "1 1/4 quarts whole milk",
-  "Garnish: sweet pepper (optional)",
-  "Garnish: carnation flower (optional)"
+  "2 ounces rye whiskey",
+  "1/2 ounce dry vermouth",
+  "1/2 ounce Benedictine",
+  "1/4 ounce prune brandy",
+  "2 dashes Angostura bitter",
+  "2 dashes orange bitters",
+  "2 ounces gin",
+  "1 ounce lemon juice, freshly squeezed",
+  "3/4 ounce simple syrup",
+  "1 egg white (about 1/2 ounce)",
+  "Club soda, to top (about 1 ounce)",
+  "2 ounces vodka",
+  "1/2 ounce coffee liqueur (usually Kahlúa)",
+  "1 ounce espresso, freshly brewed (or cold brew concentrate)",
+  "1/4 ounce simple syrup",
+  "1 1/2 ounces 100 proof rye whiskey",
+  "1 ounce dry vermouth",
+  "1 ounce Ramazzotti",
+  "1 dash orange bitters",
+  "2 ounces rye whiskey",
+  "1 ounce sweet vermouth",
+  "2 dashes Angostura bitters",
+  "2 drops orange bitters",
+  "1 ounce brut Champagne",
+  "3/4 ounce creme de noyaux",
+  "3/4 ounce white creme de cacao",
+  "1 1/2 ounces heavy cream",
+  "1 1/2 ounces cognac",
+  "1 ounce dark creme de cacao",
+  "1 ounce cream",
+  "2 ounces vodka",
+  "1 ounce Kahlúa",
+  "1 ounce heavy cream",
+  "1 ounce Banks 5 Island Rum",
+  "1 ounce Cruzan Black Strap Rum",
+  "3/4 ounce lime juice, freshly squeezed",
+  "3/4 ounce simple syrup",
+  "1 1/2 ounces vodka",
+  "1/2 ounce lemon juice, freshly squeezed",
+  "3/4 ounce lavender and dry spice syrup (recipe below)",
+  "3/4 ounce ginger tea (recipe below)",
+  "1 3/4 ounces bourbon",
+  "3/4 ounce dark amaro, like Averna or Ramazzotti",
+  "1/4 ounce Strega",
+  "2 dashes Peychaud's bitters",
+  "1 1/2 ounces reposado tequila, like Tequila Altos Reposado",
+  "1/2 ounce viche",
+  "1/2 ounce vanilla liqueur",
+  "1 ounce lulo puree",
+  "1/2 ounce lemon juice, freshly squeezed",
+  "1/2 ounce orange juice, freshly squeezed",
+  "4-5 whole fall squash, peeled, de-seeded and shredded (approx. 5 quarts by volume)",
+  "2-4 pieces fresh ginger, about 2 1/2 inches x 1 inch, peeled and shredded",
+  "3 quarts maple syrup",
+  "2 cups water",
+  "2 tablespoons juniper or peppercorn",
+  "Garnish: Imperial-grade matcha",
+  "Garnish: maraschino cherry",
+  "Garnish: orange twist",
+  "Garnish: coffee beans",
+  "Garnish: orange twist",
+  "Garnish: mint sprig",
+  "Garnish: orange wheel",
+  "Garnish: orange peel",
+  "Garnish: lime wheel",
+  "Garnish: lime wheel",
+  "Garnish: fresh lavender sprig (optional)",
+  "Garnish: cinnamon sticks (1 per storage bottle and 2 per individual serving)",
+  "Garnish: 1/2 passion fruit, fresh",
+  "Garnish: 2 green olives",
+  "Garnish: grated nutmeg",
+  "Garnish: nutmeg, freshly grated",
+  "Garnish: star anise, freshly grated",
+  "Garnish: brandied cherry (or lemon twist, if preferred)",
+  "Garnish: 2 to 4 olives, fresh",
+  "4 sprigs mint, including stems and leaves",
+  "5 cups apple cider vinegar",
+  "Soda water, to top",
+  "1 egg white",
+  "3/4 ounce heavy cream",
+  "3/4 ounce lime stock, or lime juice, freshly squeezed",
+  "1/2 ounce rich simple syrup, 1.5:1 ratio (instructions below)",
+  "1/2 ounce Midori",
+  "1 3/4 ounces rice-washed Wonderbird Gin No. 61 (instructions below)",
+  "Soda water, preferably Topo Chico, to top",
+  "56 ounces sweetened condensed milk",
+  "48 ounces evaporated milk",
+  "24 ounces cream of coconut (such as Coco Lopez)",
+  "4 teaspoons vanilla extract",
+  "4 teaspoons ground cinnamon",
+  "1 teaspoon ground nutmeg",
+  "750 milliliters (1 bottle) white, añejo or spiced Puerto Rican rum"
 ]
 
 recipe_info = []
 
+measurement_unit = [
+  "milliliters",
+  "teaspoon",
+  "teaspoons",
+  "tablespoon",
+  "tablespoons",
+  "ounce",
+  "ounces",
+  "cup",
+  "cups",
+  "pint",
+  "pints",
+  "quart",
+  "quarts",
+  "gallon",
+  "gallons",
+  "sprigs",
+  "pieces",
+  "whole",
+  "dashes"
+]
+
 recipes.each do |recipe|
-  match = recipe.match(/^(?<quantity>[\d\s\/]+)?\s*(?<unit>\w+)?\s*(?<name>.+)$/)
+  name = ""
+  quantity = nil
+  unit = nil
+  description = nil
 
-  if match
-    quantity = match[:quantity]
-    unit = match[:unit]
-    name = match[:name]
+  if recipe.start_with?("Garnish:")
+    main_split = recipe.split(/,|\((.*)\)/, 2)
+    name_split = main_split[0]
+    desc_split = main_split[1]
 
-    # If quantity is present and includes a '/', handle fractions
-    if quantity && quantity.include?('/')
-      numerator, denominator = quantity.split('/').map(&:to_i)
-      quantity = numerator.to_f / denominator
+    if name_split =~ /\d/
+      quantity = ""
+      sub_name_split = name_split.split
+
+      sub_name_split.each do |element|
+        if element =~ /\d/
+          quantity << element
+          quantity << " "
+
+        elsif element.include?("to")
+          quantity << element
+          quantity << " "
+
+        else
+          name << element
+          name << " "
+
+        end
+      end
     else
-      quantity = quantity.to_i if quantity
-    end
+      name << name_split
 
-    recipe_info << {
-      name: name,
-      quantity: quantity,
-      unit: unit,
-      description: recipe
-    }
+    end
+    description = desc_split
+
+  elsif recipe.include?("(1 bottle)")
+    main_split = recipe.split(/,|\((.*)/, 2)
+    name_split = main_split[0]
+    desc_split = main_split[1]
+    desc_split = desc_split.delete_prefix("1 bottle) ")
+    
+    if name_split =~ /\d/
+      quantity = ""
+      unit = ""
+      sub_name_split = name_split.split
+
+      sub_name_split.each_with_index do |element, index|
+        if element =~ /\d/  && index <= 1
+          quantity << element
+          quantity << " "
+
+        elsif measurement_unit.include?(element)
+          unit << element
+        else
+          name << element
+          name << " "
+
+        end
+      end
+    else
+      name << name_split
+
+    end
+    sub_desc_split = desc_split.split
+    name << sub_desc_split.first
+    name << " "
+    name << sub_desc_split.last
+    name = name&.sub(",", "")
+
   else
-    # If the regular expression doesn't match, consider it as just a name/description
-    recipe_info << {
-      name: recipe,
-      quantity: nil,
-      unit: nil,
-      description: recipe
-    }
+    main_split = recipe.split(/,|\((.*)\)/, 2)
+    name_split = main_split[0]
+    desc_split = main_split[1]
+
+    if name_split =~ /\d/
+      quantity = ""
+      unit = ""
+      sub_name_split = name_split.split
+
+      sub_name_split.each_with_index do |element, index|
+        if element =~ /\d/  && index <= 1
+          quantity << element
+          quantity << " "
+
+        elsif measurement_unit.include?(element)
+          unit << element
+        else
+          name << element
+          name << " "
+
+        end
+      end
+    else
+      name << name_split
+
+    end
+    description = desc_split
+
   end
+
+  #description = description&.sub(")", "")
+
+  recipe_info << {
+    name: name&.strip&.downcase,
+    quantity: quantity&.strip&.downcase,
+    unit: unit&.strip&.downcase,
+    description: description&.strip&.downcase
+  }
 end
 
-# Print the parsed information
 recipe_info.each do |info|
   puts "Name: #{info[:name]}"
   puts "Quantity: #{info[:quantity]}"
