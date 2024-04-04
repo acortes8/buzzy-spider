@@ -520,7 +520,8 @@ $measurement_unit = [
   "dash",
   "dashes",
   "wedges",
-  "stalks"
+  "stalks",
+  "ml"
 ]
 
 def parse_ingredient_section(ingredient_section)
@@ -547,6 +548,8 @@ def parse_ingredient(ingredient)
     parse_garnish_ingredient(ingredient, name, quantity, unit, description)
   when /\(1 bottle\)/
     parse_bottle_ingredient(ingredient, name, quantity, unit, description)
+  when /bottles/
+    parse_bottles_ingredient(ingredient, name, quantity, unit, description)
   when /plus/
     parse_plus_ingredient(ingredient, name, quantity, unit, description)
   else
@@ -620,11 +623,55 @@ def parse_bottle_ingredient(ingredient, name, quantity, unit, description)
     name << name_split
 
   end
+  if desc_split.include?(",")
+    desc_split = desc_split.sub(",", "")
+  end
   sub_desc_split = desc_split.split
   name << sub_desc_split.first
   name << " "
   name << sub_desc_split.last
-  name = name&.sub(",", "")
+end
+
+def parse_bottles_ingredient(ingredient, name, quantity, unit, description)
+  ingredient_copy = ingredient
+  ingredient_copy = ingredient_copy.gsub("(", "")
+  ingredient_copy = ingredient_copy.gsub(")", "")
+  ingredient_copy = ingredient_copy.gsub("bottles", "")
+
+  if ingredient_copy.include?("of choice")
+    description << "of choice"
+    ingredient_copy = ingredient_copy.gsub("of choice", "")
+  end
+
+  main_split = ingredient_copy.split
+
+  number_of, amount = nil, nil
+  sub_split = []
+  description_flag = false
+
+  main_split.each_with_index do |element, index|
+    if element =~ /\d/ && index == 0 then number_of = element.to_i
+    elsif element =~ /\d/ && index == 1 then amount = element.to_i
+    elsif $measurement_unit.include?(element) then unit << element
+    else
+      sub_split << element
+    end
+  end
+
+  sub_split.each_with_index do |element, index|
+    if element == "or"
+      description_flag = true
+    end
+    if description_flag == false
+      name << element
+      name << " "
+    elsif description_flag == true
+      description << element
+      description << " "
+    end
+  end
+
+  quantity << (number_of * amount).to_s
 end
 
 def parse_plus_ingredient(ingredient, name, quantity, unit, description)
