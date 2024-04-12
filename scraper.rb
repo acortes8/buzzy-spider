@@ -1,6 +1,7 @@
 require "open-uri"
 require "nokogiri"
 require "pry"
+require "json"
 require_relative "ingredient_parser"
 
 class Scraper
@@ -11,11 +12,13 @@ class Scraper
     potential_urls = doc.css('url loc').map(&:text)
     
     potential_urls.reject! { |url| irrelevant_url?(url) }
-    scrape_potential_recipes(potential_urls)
+    recipes = scrape_potential_recipes(potential_urls)
+    write_to_json(recipes, "recipes.json")
   end
 
   def scrape_potential_recipes(potential_urls)
-    potential_urls.each do |url|
+    recipes = []
+    potential_urls.take(15).each do |url|
       html = URI.open(url)
       doc = Nokogiri::HTML(html)
       recipe_info = extract_recipe_info(doc)
@@ -23,9 +26,11 @@ class Scraper
       if recipe_info.nil?
         puts "Recipe information is incomplete. Skipping..."
       else
-        display_recipe_info(recipe_info)
+        recipes << recipe_info
+        puts "Recipe information is complete. Appending..."
       end
     end
+    recipes
   end
 
   private
@@ -55,16 +60,10 @@ class Scraper
     description.reject { |paragraph| paragraph.include?("Reprinted with permission") || paragraph.include?(" / ") }.join("\n")
   end
 
-  def display_recipe_info(recipe_info)
-    puts "-------------------------------------------------------"
-    puts "Name: #{recipe_info[:name]}"
-    puts "Spirit Type: #{recipe_info[:spirit_type]}"
-    puts "Description: #{recipe_info[:description]}"
-    puts "Ingredients:"
-    recipe_info[:ingredients].each { |ingredient| puts "#{ingredient}" }
-    puts "Instructions:"
-    recipe_info[:instructions].each { |instruction| puts "#{instruction}" }
-    puts "-------------------------------------------------------"
+  def write_to_json(data, file)
+    File.open(file, "w") do |file|
+      file.write(JSON.pretty_generate(data))
+    end
   end
 end
 

@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Añejo Tequila Old Fashioned",
+    "spirit_type": "On the Rocks",
+    "description": "\nTequila is best known for its use in classic cocktails like the Margarita and Paloma. But the agave-based spirit is a workhorse that can be consumed neat or utilized in drinks from refreshing sours to potent stirred drinks.\n\n\nConsider the Old Fashioned. Made typically with bourbon or rye whiskey, it’s ripe for experimentation and still shines when featuring other base spirits, from brandy to mezcal to tequila. When tequila takes center stage, it lends its unique notes of earth, spice, and agave.\n\n\nShaken fresh-juice cocktails like the Margarita benefit from dry, earthy blanco tequila, but the Añejo Old Fashioned calls for añejo tequila, a category of tequila that describes those aged for a minimum of one year. The oak-accented spirit is more similar to whiskey—it’s often aged in former whiskey barrels—and takes on the vanilla, caramel and spice notes from the barrel while providing the roasted agave notes that tequila drinkers love. The cocktail combines aged tequila with bitters and agave nectar (rather than simple syrup or granulated sugar) and is familiar, satisfying and delicious.\n",
+    "ingredients": [
+      {
+        "original": "1/4 ounce agave nectar",
+        "name": "agave nectar",
+        "quantity": "1/4",
+        "unit": "ounce",
+        "description": ""
+      },
+      {
+        "original": "1 dash angostura bitters",
+        "name": "angostura bitters",
+        "quantity": "1",
+        "unit": "dash",
+        "description": ""
+      },
+      {
+        "original": "orange peel",
+        "name": "orange peel",
+        "quantity": "",
+        "unit": "",
+        "description": ""
+      },
+      {
+        "original": "3 ounces añejo tequila",
+        "name": "añejo tequila",
+        "quantity": "3",
+        "unit": "ounces",
+        "description": ""
+      },
+      {
+        "original": "garnish: brandied cherry",
+        "name": "garnish: brandied cherry",
+        "quantity": "",
+        "unit": "",
+        "description": ""
+      }
+    ],
+    "instructions": [
+      "\nIn a mixing glass, lightly muddle the agave nectar, bitters and orange peel.\n",
+      "\nAdd the tequila, then fill with ice and stir until well-chilled.\n",
+      "\nStrain into an Old Fashioned glass over fresh ice, and garnish with a brandied cherry.\n"
+    ]
+  },
+  {
+    "name": "Jerk-Spiced Bloody Mary",
+    "spirit_type": "Rum Cocktails",
+    "description": "\nThe Bloody Mary has long been a popular morning-after drink, known for its ability to soothe symptoms of a hangover. There are just a few recipes in my collection of African American cookbooks for the classic combination, which is ordinarily made with vodka, tomato juice, Worcestershire sauce, and seasonings, but the drink is experiencing a bit of a renaissance lately. The Bottomless Bloody Mary on restaurant brunch menus, made more boldly with rum, flavored vodka, and potent spices, may be driving this trend.\n\n\nI love the flavor departure in the Bloody Maria, a fiery Mexican version built with tequila; or the complexity of iconic restaurateur-model-author-entrepreneur Barbara “B.” Smith’s Cajun Mary, which she included in B. Smith Cooks Southern-Style in 2009. Smith’s ode to Louisiana can be made sweet with Absolut Mango vodka or spicy with Absolut Pepper vodka and garnished with spicy baby okra and blue-cheese–stuffed olives. And my curiosity was definitely piqued by Pat and Gina Neely’s flavor-balancing act. The television food personalities re-imagined the morning libation with hot-pepper vodka, vegetable juice, barbecue sauce, and horseradish in their 2009 cookbook, Down Home with the Neelys: A Southern Family Cookbook.\n\n\nI also fell hard for the idea of Bloody Marys for a Crowd, in Elle Simone Scott’s 2022 cookbook, Boards—so hard that I included a version of the recipe in Cook’s Country magazine, where I am editor-in-chief. Elle starts by making a big batch of classic Bloodies, but for variety, she sets out a wide assortment of rim salts, skewers, and garnishes—everything from classic olives and celery to chicken wings and poached shrimp—so people can customize their drink to their heart’s content.\n\n\nIn the end, though, it was the Bloody Mary à la Jerk, included in Helen Willinsky’s 1990 book, Jerk Barbecue from Jamaica, that won me over. Inspired by its use of sweet-hot spices, the version that follows swaps rum for vodka and doubles easily to serve a large crowd. Rimming the outside edge of the serving glass with the jerk seasoning intensifies the island experience, but it is optional. \n\n\nServes 8 to 10.\n",
+    "ingredients": [
+      {
+        "original": "1 quart tomato juice or campbell’s v8 juice",
+        "name": "tomato juice",
+        "quantity": "1",
+        "unit": "quart",
+        "description": "or campbell’s v8 juice"
+      },
+      {
+        "original": "1/2 cup plus 1 tablespoon prepared jerk seasoning",
+        "name": "prepared jerk seasoning",
+        "quantity": "1/2",
+        "unit": "cup",
+        "description": ""
+      },
+      {
+        "original": "1 teaspoon celery salt",
+        "name": "celery salt",
+        "quantity": "1",
+        "unit": "teaspoon",
+        "description": ""
+      },
+      {
+        "original": "3/4 ounce worcestershire sauce",
+        "name": "worcestershire sauce",
+        "quantity": "3/4",
+        "unit": "ounce",
+        "description": ""
+      },
+      {
+        "original": "4 ounces fresh lime or lemon juice",
+        "name": "lime",
+        "quantity": "4",
+        "unit": "ounces",
+        "description": "or lemon juice"
+      },
+      {
+        "original": "1 1/2 teaspoons hot pepper sauce, or to taste",
+        "name": "hot pepper sauce,",
+        "quantity": "1 1/2",
+        "unit": "teaspoons",
+        "description": "or to taste"
+      },
+      {
+        "original": "8 ounces light or dark rum",
+        "name": "light",
+        "quantity": "8",
+        "unit": "ounces",
+        "description": "or dark rum"
+      },
+      {
+        "original": "8–10 lime or lemon wedges",
+        "name": "lime",
+        "quantity": "8–10",
+        "unit": "wedges",
+        "description": "or lemon"
+      },
+      {
+        "original": "8–10 celery stalks, with leaves",
+        "name": "celery",
+        "quantity": "8–10",
+        "unit": "stalks",
+        "description": "with leaves"
+      }
+    ],
+    "instructions": [
+      "\nCombine the tomato juice, 1 tablespoon of the jerk seasoning, the celery salt, and Worcestershire sauce in a small microwave- safe pitcher. Microwave until bubbles just begin to form around the edge of the pitcher, 2 to 3 minutes. \n",
+      "\nRemove it from the microwave and stir to dissolve the seasoning. Add the lime juice, hot pepper sauce, and rum to the base. \n",
+      "\nRefrigerate several hours, until thoroughly chilled.\n",
+      "\nPlace the remaining ½ cup jerk seasoning on a saucer. Moisten the edges of tall glasses with a lime wedge. Press the edge of each glass into the seasoning to create a spiced rim. \n",
+      "\nAdd ice to each glass, then pour in the mix. Garnish each glass with 1 lime wedge and a celery stalk.\n"
+    ]
+  },
+  {
+    "name": "Claret Cup",
+    "spirit_type": "Cognac & Other Brandy Cocktails",
+    "description": "\nCups are wine-forward drinks decorated with fruit and herbs. Classic cups can have a base of either wine or beer. For the wine-based, claret (a red wine) and lemonade form the foundation, with brandy, green Chartreuse or Curaçao, and pineapple or cherry juice stirred into the more elaborate mixes. Despite the name, cups are served from pitchers or other large vessels, similar to punch. Cucumber was a popular adornment that is back on craft-cocktail menus.\n\n\nBertha L. Turner, a state superintendent of domestic science who, in 1910, cultivated recipes from members of the Colored Women of the State of California for The Federation Cook Book, fortifies her Old Pacific Slope Punch with twice the claret I suggest in my adaptation that follows. Despite its fruity foundation, this cocktail is not as sweet as the version in John B. Goins’s 1914 book, The American Waiter. (Goins was an expert in early twentieth-century lodging and hospitality, not a recipe specialist.) And the addition of seasonal grapefruit is a nice touch that delivers potent citrus notes without dominating the wine and Champagne flavors.\n\n\nThe word claret is derived from the Latin meaning “clear.” It is a British term used to group the red-wine blends of Bordeaux into one category, which gives you lots of flexibility when it comes to choosing the wine for this recipe. Try making it with your favorite Cabernet Sauvignon or Merlot. Served in small tea cups, this cocktail is good as a prelude to Thanksgiving dinner.\n\n\nServes 30.\n",
+    "ingredients": [
+      {
+        "original": "1 tablespoon granulated sugar",
+        "name": "granulated sugar",
+        "quantity": "1",
+        "unit": "tablespoon",
+        "description": ""
+      },
+      {
+        "original": "1 ounce warm water",
+        "name": "warm water",
+        "quantity": "1",
+        "unit": "ounce",
+        "description": ""
+      },
+      {
+        "original": "3 oranges, sliced",
+        "name": "oranges",
+        "quantity": "3",
+        "unit": "",
+        "description": "sliced"
+      },
+      {
+        "original": "2 lemons, sliced",
+        "name": "lemons",
+        "quantity": "2",
+        "unit": "",
+        "description": "sliced"
+      },
+      {
+        "original": "1 pineapple, peeled, cored, and sliced into rings",
+        "name": "pineapple",
+        "quantity": "1",
+        "unit": "",
+        "description": "peeled, cored, and sliced into rings"
+      },
+      {
+        "original": "1 ounce abricotine or apricot brandy",
+        "name": "abricotine",
+        "quantity": "1",
+        "unit": "ounce",
+        "description": "or apricot brandy"
+      },
+      {
+        "original": "2 ounces curaçao or tangerine liqueur",
+        "name": "curaçao",
+        "quantity": "2",
+        "unit": "ounces",
+        "description": "or tangerine liqueur"
+      },
+      {
+        "original": "2 (750 ml) bottles claret of choice",
+        "name": "claret",
+        "quantity": "1500",
+        "unit": "ml",
+        "description": "of choice"
+      },
+      {
+        "original": "2 (750 ml) bottles champagne or other sparkling white wine",
+        "name": "champagne",
+        "quantity": "1500",
+        "unit": "ml",
+        "description": "or other sparkling white wine"
+      },
+      {
+        "original": "2 cups sparkling water",
+        "name": "sparkling water",
+        "quantity": "2",
+        "unit": "cups",
+        "description": ""
+      },
+      {
+        "original": "1 large block of ice",
+        "name": "large block of ice",
+        "quantity": "1",
+        "unit": "",
+        "description": ""
+      },
+      {
+        "original": "1 grapefruit, thinly sliced and cut into half-moons",
+        "name": "grapefruit",
+        "quantity": "1",
+        "unit": "",
+        "description": "thinly sliced and cut into half-moons"
+      }
+    ],
+    "instructions": [
+      "\nIn a large bowl, stir together the sugar and warm water, stirring until the sugar is dissolved. \n",
+      "\nAdd the orange, lemon, and pineapple slices, and stir to thoroughly coat the fruit with the syrup. \n",
+      "\nLet stand for 30 minutes, allowing the fruit to macerate. \n",
+      "\nAdd the Abricotine, Curaçao, and claret, and stir for 1 minute. Cover and refrigerate for 3 hours. \n",
+      "\nStrain the mixture through a fine-mesh sieve, pressing on the pulp with a spoon to extract all the fruit juice. \n",
+      "\nPour the infused wine, Champagne, and sparkling water into a punch bowl. Stir gently to mix. \n",
+      "\nAdd the ice block and garnish with grapefruit slices. To serve, ladle the drink into Champagne flutes or punch cups. \n"
+    ]
+  },
+  {
+    "name": "Clover Leaf",
+    "spirit_type": "Gin Cocktails",
+    "description": "\nThe Clover Leaf is a floral, fruity, and sweet gin drink, made with grenadine (pomegranate syrup), lemon juice, and egg whites, resulting in a cocktail with the taste and mouthfeel of berry cream soda. It is sometimes confused with the Clover Club, which uses raspberry syrup in place of the grenadine and vermouth for the lemon juice. (Longtime Tulsa caterer Cleora Butler enjoyed combining grenadine and vermouth—pantry staples that are more accessible than raspberry syrup and fresh lemon juice.) Either way, the drink is sensational, and is another delicious way to serve that homemade grenadine mixed with Old Tom gin, which is mild and smooth.\n\n\nIf you prefer raspberry syrup to the grenadine, this updated option relies on Chambord, a luxury brand of black raspberry liqueur, to tone down some of the sugar. Pasteurized egg whites or half-and-half also replace the frothy raw egg. In either case, this technique demonstrates the high art of cocktail making, shaking to create a beautiful crown of foam.\n",
+    "ingredients": [
+      {
+        "original": "1/2 ounce chambord liqueur or pomegranate grenadine",
+        "name": "chambord liqueur",
+        "quantity": "1/2",
+        "unit": "ounce",
+        "description": "or pomegranate grenadine"
+      },
+      {
+        "original": "1/2 ounce fresh lemon juice",
+        "name": "fresh lemon juice",
+        "quantity": "1/2",
+        "unit": "ounce",
+        "description": ""
+      },
+      {
+        "original": "1 ounce pasteurized egg whites or 1/2 ounce half-and-half",
+        "name": "pasteurized egg whites",
+        "quantity": "1",
+        "unit": "ounce",
+        "description": "or 1/2 ounce half-and-half"
+      },
+      {
+        "original": "1–1 1/2 ounces gin",
+        "name": "gin",
+        "quantity": "1–1 1/2",
+        "unit": "ounces",
+        "description": ""
+      },
+      {
+        "original": "garnish: fresh mint leaf",
+        "name": "garnish: fresh mint leaf",
+        "quantity": "",
+        "unit": "",
+        "description": ""
+      }
+    ],
+    "instructions": [
+      "\nCombine the Chambord or grenadine, lemon juice, egg white or half-and-half, and gin in a cocktail shaker with ice cubes. \n",
+      "\nShake vigorously for 10 seconds, until the ingredients are cold and the mix is frothy with a pink blush. \n",
+      "\nStrain into a Martini or coupe cocktail glass, making sure there is a thin layer of foam and a few small ice chips floating on top. \n",
+      "\nGarnish with the mint leaf.\n"
+    ]
+  },
+  {
+    "name": "Emerson",
+    "spirit_type": "Gin Cocktails",
+    "description": "\nThe Emerson is a classic cocktail consisting of gin, sweet vermouth, maraschino liqueur, and lime juice. It’s a close relative of the Martinez, itself considered a possible forebearer of the Martini. \n\n\nThe exact origins of the drink are largely unknown, though some say the drink was named in honor of Ralph Waldo Emerson, and one of its earliest known appearances was in Jacques Straub’s 1913 book Straub’s Manual of Mixed Drinks. It mostly follows cocktails of the era, taking the spirit-plus-vermouth-plus-modifier template of drinks like the Manhattan and the Martini and adding its own slight tweaks.\n\n\nLike the Martinez, the Emerson follows a structure of gin, sweet vermouth, and maraschino liqueur, but it differs in its modifier. While the Martinez uses bitters as its accent ingredient, the Emerson opts for a relatively small amount of lime juice. What this does is skews the cocktail away from the bitter and spirit-forward template of drinks and towards the sour category, though somewhat more subtly than other classic sours of the era like the Gin Sour or Daiquiri. What you get is a cocktail that straddles the line between these two worlds.\n\n\nAt 1/4 ounce, maraschino liqueur is used in a relatively small amount here. However, it provides a substantial amount of backbone when considered as a sweetener. The grams of sugar by volume in maraschino liqueur are roughly double that of most sweet vermouths, meaning it’s easier to tweak small amounts of liqueur used in the Emerson to fit your preferred flavor profile rather than alter the volume of vermouth. Maraschino helps bring out the fruit-forward notes of vermouth and contribute sweetness while not overpowering vermouth’s more subtle qualities.\n\n\nIn all, the Emerson is an interesting representation of two popular pre-Prohibition styles of cocktail fused together, and a fantastic option for fans of either citrus-forward sours or spirit-forward Martinez-style cocktails looking for something different.\n",
+    "ingredients": [
+      {
+        "original": "1 1/2 ounces gin, preferably old tom",
+        "name": "gin",
+        "quantity": "1 1/2",
+        "unit": "ounces",
+        "description": "preferably old tom"
+      },
+      {
+        "original": "1 ounce sweet vermouth",
+        "name": "sweet vermouth",
+        "quantity": "1",
+        "unit": "ounce",
+        "description": ""
+      },
+      {
+        "original": "1/2 ounce lime juice, freshly squeezed",
+        "name": "lime juice",
+        "quantity": "1/2",
+        "unit": "ounce",
+        "description": "freshly squeezed"
+      },
+      {
+        "original": "1/4 ounce maraschino liqueur",
+        "name": "maraschino liqueur",
+        "quantity": "1/4",
+        "unit": "ounce",
+        "description": ""
+      },
+      {
+        "original": "garnish: maraschino cherry",
+        "name": "garnish: maraschino cherry",
+        "quantity": "",
+        "unit": "",
+        "description": ""
+      }
+    ],
+    "instructions": [
+      "\nCombine all ingredients except garnish in a cocktail shaker filled with ice.\n",
+      "\nShake for 10–15 seconds, until well chilled.\n",
+      "\nDouble strain through a fine mesh strainer into a chilled cocktail glass.\n",
+      "\nGarnish with a maraschino cherry.\n"
+    ]
+  }
+]
