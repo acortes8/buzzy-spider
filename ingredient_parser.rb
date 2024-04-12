@@ -2,7 +2,7 @@ class IngredientParser
   MEASUREMENT_UNIT = [
     "milliliters", "teaspoon", "teaspoons", "tablespoon", "tablespoons",
     "ounce", "ounces", "cup", "cups", "pint", "pints", "quart", "quarts",
-    "gallon", "gallons", "sprigs", "pieces", "whole", "dashes", "wedges", "stalks"
+    "gallon", "gallons", "sprigs", "pieces", "whole", "dashes", "wedges", "stalks", "ml"
   ].freeze
 
   def self.parse_ingredients(recipe_paragraphs)
@@ -13,6 +13,8 @@ class IngredientParser
       quantity = nil
       unit = nil
       description = nil
+
+#=================================================================
 
       if recipe.start_with?("Garnish:")
         main_split = recipe.split(/,|\((.*)\)/, 2)
@@ -43,6 +45,8 @@ class IngredientParser
     
         end
         description = desc_split
+
+#================================================================
     
       elsif recipe.include?("(1 bottle)")
         main_split = recipe.split(/,|\((.*)/, 2)
@@ -77,7 +81,9 @@ class IngredientParser
         name << " "
         name << sub_desc_split.last
         name = name&.sub(",", "")
-    
+
+#================================================================
+
       elsif recipe.include?(" plus ")
         main_split = recipe.split("plus", 2)
         name_split = main_split[0]
@@ -127,14 +133,16 @@ class IngredientParser
         else
           name << name_split
         end
+
+#================================================================
     
       else
         if recipe.include?("," || "(")
           main_split = recipe.split(/,|\((.*)\)/, 2)
           name_split = main_split[0]
           desc_split = main_split[1]
-        elsif recipe.include?(" or ")
-          main_split = recipe.split("or", 2)
+        elsif recipe =~ /\bor\b/
+          main_split = recipe.split(/\bor\b/, 2)
           name_split = main_split[0]
           desc_split = main_split[1]
           desc_split.prepend("or")
@@ -177,6 +185,8 @@ class IngredientParser
         description = desc_split
     
       end
+
+#================================================================
 
       recipe_info << {
         name: name&.strip&.downcase,

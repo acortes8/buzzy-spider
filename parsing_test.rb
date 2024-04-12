@@ -482,6 +482,7 @@ ingredient_section = [
   "1 ounce pineapple juice",
   "1/2 ounce lime juice, freshly squeezed",
   "Club soda, chilled, to top",
+  "1 dash Angostura bitters",
   "Garnish: orange slice",
   "Garnish: cherry",
   "8–10 lime or lemon wedges",
@@ -494,8 +495,7 @@ ingredient_section = [
   "1/2 ounce Chambord or creme de cassis (optional)",
   "750 milliliters (1 bottle) white, añejo or spiced Puerto Rican rum",
   "2 (750 ml) bottles claret of choice",
-  "2 (750 ml) bottles Champagne or other sparkling white wine",
-  "1 dash Angostura bitters"
+  "2 (750 ml) bottles Champagne or other sparkling white wine"
 ]
 
 $measurement_unit = [
@@ -556,7 +556,7 @@ def parse_ingredient(ingredient)
     parse_other_ingredient(ingredient, name, quantity, unit, description)
   end
   [name, quantity, unit, description].each do |variable|
-    variable = nil if variable != ""
+    if variable == "" then variable = nil end
   end
   {
     original: ingredient&.strip&.downcase,
@@ -724,22 +724,23 @@ def parse_plus_ingredient(ingredient, name, quantity, unit, description)
 end
 
 def parse_other_ingredient(ingredient, name, quantity, unit, description)
-  if ingredient.include?("," || "(")
-    main_split = ingredient.split(/,|\((.*)\)/, 2)
-    name_split = main_split[0]
-    desc_split = main_split[1]
-  elsif ingredient.include?(" or ")
-    main_split = ingredient.split("or", 2)
+  if ingredient =~ /\bor\b/
+    extra_desc_holder = ""
+    main_split = ingredient.split(/\bor\b/, 2)
     name_split = main_split[0]
     desc_split = main_split[1]
     desc_split.prepend("or")
     if name_split.include?("fresh")
       name_split = name_split.sub("fresh", "")
     end
-    if name_split.split.last != desc_split.split.last
+    if $measurement_unit.include?(desc_split.split.last)
       name_split << desc_split.split.last
       desc_split = desc_split.sub(desc_split.split.last, "")
     end
+  elsif ingredient.include?("," || "(")
+    main_split = ingredient.split(/,|\((.*)\)/, 2)
+    name_split = main_split[0]
+    desc_split = main_split[1]
   else
     main_split = ingredient.split(/,|\((.*)\)/, 2)
     name_split = main_split[0]
@@ -754,8 +755,11 @@ def parse_other_ingredient(ingredient, name, quantity, unit, description)
         quantity << element
         quantity << " "
 
-      elsif $measurement_unit.include?(element)
+      elsif $measurement_unit.include?(element) && unit == ""
         unit << element
+
+      elsif element == "(optional)"
+        extra_desc_holder << element
 
       else
         name << element
@@ -767,7 +771,8 @@ def parse_other_ingredient(ingredient, name, quantity, unit, description)
     name << name_split
 
   end
-  description = desc_split
+  if desc_split then description << desc_split end
+  if extra_desc_holder then description << extra_desc_holder end
 end
 
 parse_ingredient_section(ingredient_section)
