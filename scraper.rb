@@ -41,8 +41,8 @@ class Scraper
     name = doc.css("#heading_1-0 > h1").text.strip
     spirit_type = doc.css("#article-header-tag-nav_1-0 > a.breadcrumbs__item.breadcrumbs__item--3").text.strip
     description = extract_description(doc)
-    ingredients_section = doc.css("#section--ingredients_1-0 p").map(&:text)
-    ingredients = IngredientParser.parse_ingredients(ingredients_section)
+    ingredient_section = doc.css("#section--ingredients_1-0 p").map(&:text)
+    ingredients = IngredientParser.parse_ingredient_section(ingredient_section)
     instructions = doc.css("#mntl-sc-block_3-0 p").map(&:text)
 
     return nil if name.empty? || spirit_type.empty? || description.empty? || ingredients.empty? || instructions.empty?
