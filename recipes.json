@@ -2,6 +2,7 @@
   {
     "name": "Añejo Tequila Old Fashioned",
     "spirit_type": "On the Rocks",
+    "image_url": null,
     "description": "\nTequila is best known for its use in classic cocktails like the Margarita and Paloma. But the agave-based spirit is a workhorse that can be consumed neat or utilized in drinks from refreshing sours to potent stirred drinks.\n\n\nConsider the Old Fashioned. Made typically with bourbon or rye whiskey, it’s ripe for experimentation and still shines when featuring other base spirits, from brandy to mezcal to tequila. When tequila takes center stage, it lends its unique notes of earth, spice, and agave.\n\n\nShaken fresh-juice cocktails like the Margarita benefit from dry, earthy blanco tequila, but the Añejo Old Fashioned calls for añejo tequila, a category of tequila that describes those aged for a minimum of one year. The oak-accented spirit is more similar to whiskey—it’s often aged in former whiskey barrels—and takes on the vanilla, caramel and spice notes from the barrel while providing the roasted agave notes that tequila drinkers love. The cocktail combines aged tequila with bitters and agave nectar (rather than simple syrup or granulated sugar) and is familiar, satisfying and delicious.\n",
     "ingredients": [
       {
@@ -47,8 +48,45 @@
     ]
   },
   {
+    "name": "The Balvenie DoubleWood 12-Year Single Malt Scotch Whisky Review",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
+    "name": "What’s the Difference Between a Rocks Glass and an Old Fashioned Glass?",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
+    "name": "Try 3 Drinks from Toni Tipton-Martin’s New Book, Inspired by Two Centuries of Black Cocktail History",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
     "name": "Jerk-Spiced Bloody Mary",
     "spirit_type": "Rum Cocktails",
+    "image_url": null,
     "description": "\nThe Bloody Mary has long been a popular morning-after drink, known for its ability to soothe symptoms of a hangover. There are just a few recipes in my collection of African American cookbooks for the classic combination, which is ordinarily made with vodka, tomato juice, Worcestershire sauce, and seasonings, but the drink is experiencing a bit of a renaissance lately. The Bottomless Bloody Mary on restaurant brunch menus, made more boldly with rum, flavored vodka, and potent spices, may be driving this trend.\n\n\nI love the flavor departure in the Bloody Maria, a fiery Mexican version built with tequila; or the complexity of iconic restaurateur-model-author-entrepreneur Barbara “B.” Smith’s Cajun Mary, which she included in B. Smith Cooks Southern-Style in 2009. Smith’s ode to Louisiana can be made sweet with Absolut Mango vodka or spicy with Absolut Pepper vodka and garnished with spicy baby okra and blue-cheese–stuffed olives. And my curiosity was definitely piqued by Pat and Gina Neely’s flavor-balancing act. The television food personalities re-imagined the morning libation with hot-pepper vodka, vegetable juice, barbecue sauce, and horseradish in their 2009 cookbook, Down Home with the Neelys: A Southern Family Cookbook.\n\n\nI also fell hard for the idea of Bloody Marys for a Crowd, in Elle Simone Scott’s 2022 cookbook, Boards—so hard that I included a version of the recipe in Cook’s Country magazine, where I am editor-in-chief. Elle starts by making a big batch of classic Bloodies, but for variety, she sets out a wide assortment of rim salts, skewers, and garnishes—everything from classic olives and celery to chicken wings and poached shrimp—so people can customize their drink to their heart’s content.\n\n\nIn the end, though, it was the Bloody Mary à la Jerk, included in Helen Willinsky’s 1990 book, Jerk Barbecue from Jamaica, that won me over. Inspired by its use of sweet-hot spices, the version that follows swaps rum for vodka and doubles easily to serve a large crowd. Rimming the outside edge of the serving glass with the jerk seasoning intensifies the island experience, but it is optional. \n\n\nServes 8 to 10.\n",
     "ingredients": [
       {
@@ -126,6 +164,7 @@
   {
     "name": "Claret Cup",
     "spirit_type": "Cognac & Other Brandy Cocktails",
+    "image_url": null,
     "description": "\nCups are wine-forward drinks decorated with fruit and herbs. Classic cups can have a base of either wine or beer. For the wine-based, claret (a red wine) and lemonade form the foundation, with brandy, green Chartreuse or Curaçao, and pineapple or cherry juice stirred into the more elaborate mixes. Despite the name, cups are served from pitchers or other large vessels, similar to punch. Cucumber was a popular adornment that is back on craft-cocktail menus.\n\n\nBertha L. Turner, a state superintendent of domestic science who, in 1910, cultivated recipes from members of the Colored Women of the State of California for The Federation Cook Book, fortifies her Old Pacific Slope Punch with twice the claret I suggest in my adaptation that follows. Despite its fruity foundation, this cocktail is not as sweet as the version in John B. Goins’s 1914 book, The American Waiter. (Goins was an expert in early twentieth-century lodging and hospitality, not a recipe specialist.) And the addition of seasonal grapefruit is a nice touch that delivers potent citrus notes without dominating the wine and Champagne flavors.\n\n\nThe word claret is derived from the Latin meaning “clear.” It is a British term used to group the red-wine blends of Bordeaux into one category, which gives you lots of flexibility when it comes to choosing the wine for this recipe. Try making it with your favorite Cabernet Sauvignon or Merlot. Served in small tea cups, this cocktail is good as a prelude to Thanksgiving dinner.\n\n\nServes 30.\n",
     "ingredients": [
       {
@@ -224,8 +263,57 @@
     ]
   },
   {
+    "name": "The 10 Most Popular Cocktails of February 2024",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
+    "name": "Colin Asare-Appiah’s New Cocktail Festival Wants to ‘Connect, Collaborate, and Celebrate the Flavors and Tastes of Africa’",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
+    "name": "Amari Dawn Pollard",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
+    "name": "Is Champagne the Secret to Great Pizza Dough?",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
     "name": "Clover Leaf",
     "spirit_type": "Gin Cocktails",
+    "image_url": null,
     "description": "\nThe Clover Leaf is a floral, fruity, and sweet gin drink, made with grenadine (pomegranate syrup), lemon juice, and egg whites, resulting in a cocktail with the taste and mouthfeel of berry cream soda. It is sometimes confused with the Clover Club, which uses raspberry syrup in place of the grenadine and vermouth for the lemon juice. (Longtime Tulsa caterer Cleora Butler enjoyed combining grenadine and vermouth—pantry staples that are more accessible than raspberry syrup and fresh lemon juice.) Either way, the drink is sensational, and is another delicious way to serve that homemade grenadine mixed with Old Tom gin, which is mild and smooth.\n\n\nIf you prefer raspberry syrup to the grenadine, this updated option relies on Chambord, a luxury brand of black raspberry liqueur, to tone down some of the sugar. Pasteurized egg whites or half-and-half also replace the frothy raw egg. In either case, this technique demonstrates the high art of cocktail making, shaking to create a beautiful crown of foam.\n",
     "ingredients": [
       {
@@ -272,8 +360,33 @@
     ]
   },
   {
+    "name": "Toni Tipton-Martin",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
+    "name": "Daniel Modlin",
+    "spirit_type": "",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
+    ]
+  },
+  {
     "name": "Emerson",
     "spirit_type": "Gin Cocktails",
+    "image_url": null,
     "description": "\nThe Emerson is a classic cocktail consisting of gin, sweet vermouth, maraschino liqueur, and lime juice. It’s a close relative of the Martinez, itself considered a possible forebearer of the Martini. \n\n\nThe exact origins of the drink are largely unknown, though some say the drink was named in honor of Ralph Waldo Emerson, and one of its earliest known appearances was in Jacques Straub’s 1913 book Straub’s Manual of Mixed Drinks. It mostly follows cocktails of the era, taking the spirit-plus-vermouth-plus-modifier template of drinks like the Manhattan and the Martini and adding its own slight tweaks.\n\n\nLike the Martinez, the Emerson follows a structure of gin, sweet vermouth, and maraschino liqueur, but it differs in its modifier. While the Martinez uses bitters as its accent ingredient, the Emerson opts for a relatively small amount of lime juice. What this does is skews the cocktail away from the bitter and spirit-forward template of drinks and towards the sour category, though somewhat more subtly than other classic sours of the era like the Gin Sour or Daiquiri. What you get is a cocktail that straddles the line between these two worlds.\n\n\nAt 1/4 ounce, maraschino liqueur is used in a relatively small amount here. However, it provides a substantial amount of backbone when considered as a sweetener. The grams of sugar by volume in maraschino liqueur are roughly double that of most sweet vermouths, meaning it’s easier to tweak small amounts of liqueur used in the Emerson to fit your preferred flavor profile rather than alter the volume of vermouth. Maraschino helps bring out the fruit-forward notes of vermouth and contribute sweetness while not overpowering vermouth’s more subtle qualities.\n\n\nIn all, the Emerson is an interesting representation of two popular pre-Prohibition styles of cocktail fused together, and a fantastic option for fans of either citrus-forward sours or spirit-forward Martinez-style cocktails looking for something different.\n",
     "ingredients": [
       {
@@ -317,6 +430,18 @@
       "\nShake for 10–15 seconds, until well chilled.\n",
       "\nDouble strain through a fine mesh strainer into a chilled cocktail glass.\n",
       "\nGarnish with a maraschino cherry.\n"
+    ]
+  },
+  {
+    "name": "10 Cocktails to Celebrate the Lunar New Year",
+    "spirit_type": "Winter",
+    "image_url": null,
+    "description": "",
+    "ingredients": [
+
+    ],
+    "instructions": [
+
     ]
   }
 ]

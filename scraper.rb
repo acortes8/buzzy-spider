@@ -45,14 +45,16 @@ class Scraper
   def extract_recipe_info(doc)
     name = doc.css("#heading_1-0 > h1").text.strip
     spirit_type = doc.css("#article-header-tag-nav_1-0 > a.breadcrumbs__item.breadcrumbs__item--3").text.strip
+    # #primary-image_1-0 > div > div > img
+    image_url = doc.css("img.primary-image_1-0 > div > div > img").attribute('data-src')
     description = extract_description(doc)
     ingredient_section = doc.css("#section--ingredients_1-0 p").map(&:text)
     ingredients = IngredientParser.parse_ingredient_section(ingredient_section)
     instructions = doc.css("#mntl-sc-block_3-0 p").map(&:text)
 
-    return nil if name.empty? || spirit_type.empty? || description.empty? || ingredients.empty? || instructions.empty?
+    #return nil if name.empty? || spirit_type.empty? || image_url.empty? || description.empty? || ingredients.empty? || instructions.empty?
 
-    { name: name, spirit_type: spirit_type, description: description, ingredients: ingredients, instructions: instructions }
+    { name: name, spirit_type: spirit_type, image_url: image_url, description: description, ingredients: ingredients, instructions: instructions }
   end
 
   def extract_description(doc)
